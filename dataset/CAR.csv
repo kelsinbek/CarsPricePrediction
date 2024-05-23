@@ -721,5 +721,183 @@
 697,Honda Fit,Honda,2010,10000$,164 000 km,Petrol
 698,Honda Fit,Honda,2006,9000$,127 589 km,Petrol
 699,Honda Fit,Honda,2002,5500$,340 000 km,Petrol
+700,Kia K5 2.0,Kia,2018,18500$,98 000 km,Petrol
+701,Kia K7 3.3,Kia,2016,15000$,130 000 km,Petrol
+702,Kia Sportage 2.0,Kia,2020,20500$,65 000 km,Petrol
+703,Kia K5 2.0,Kia,2018,16000$,112 000 km,LPG
+704,Kia Seltos 1.6,Kia,2020,18000$,45 000 km,Petrol
+705,Kia K7 3.0,Kia,2018,14500$,199 000 km,LPG
+706,Kia K5 2.0,Kia,2018,13500$,195 000 km,LPG
+707,Kia K5 2.0,Kia,2016,13500$,65 000 km,Petrol
+708,Kia Sorento 1.6,Kia,2020,37000$,44 400 km,Hybrid
+709,Kia Sorento 2.0,Kia,2016,19300$,90 000 km,Diesel
+710,Kia Optima 2.4,Kia,2018,10000$,89 000 km,Petrol
+711,Kia Sorento 8-speed 2.0,Kia,2017,20500$,140 000 km,Diesel
+712,Kia Carnival 2.2,Kia,2021,27500$,60 000 km,Diesel
+713,Kia K5 2.0,Kia,2018,14500$,97 000 km,LPG
+714,Kia K3 1.6,Kia,2018,13000$,130 000 km,Petrol
+715,Kia Morning 1.0,Kia,2020,8900$,38 800 km,Petrol
+716,Kia Morning 1.0,Kia,2019,9000$,70 000 km,LPG
+717,Kia Carnival 2.2,Kia,2020,36500$,41 000 km,Diesel
+718,Kia Carnival 2.2,Kia,2017,15300$,126 000 km,Diesel
+719,Kia Sorento 2.5,Kia,2021,35000$,39 000 km,Petrol
+720,Kia K5 LPi 2.0,Kia,2019,15900$,102 000 km,LPG
+721,Kia K5 2.0,Kia,2019,16500$,85 000 km,Petrol
+722,Kia Sorento 2.2,Kia,2020,32500$,40 000 km,Diesel
+723,Kia Carnival 2.2,Kia,2018,27000$,75 000 km, Diesel
+724,Kia K5 1.6,Kia,2020,16500$,50 000 km,Petrol
+725,Kia Sportage 1.6,Kia,2019,19000$,55 000 km,Petrol
+726,Kia Rio 1.4,Kia, 2017,11000$,85 000 km,Petrol
+727,Kia Optima 1.6 Kia,2018,15500$,72 000 km,Petrol
+728,Kia Seltos 1.4,Kia,2020,20500$,48 000 km,Petrol
+729,Kia Optima 2.0,Kia,2017,13500$,110 000 km,Petrol
+730,Kia Sportage 1.7,Kia,2016,14500$,80 000 km,Diesel
+731,Kia Sorento 2.2,Kia,2019,27500$,42 000 km,Diesel
+732,Kia Sorento 2.0,Kia,2020,32000$,30 000 km,Petrol
+733,Kia Sportage 2.0,Kia,2017,16500$,70 000 km,Petrol
+734,Kia Soul 1.6,Kia,2018,14500$,55 000 km,Petrol
+735,Kia Optima 1.7,Kia,2016,11500$,90 000 km,Diesel
+736,Kia Sorento 2.2,Kia,2020,35000$,28 000 km,Diesel
+737,Kia Rio 1.4,Kia,2020,14000$,40 000 km,Petrol
+738,Kia Sportage 1.6,Kia,2018,17500$,55 000 km,Petrol
+739,Kia Soul 1.6,Kia,2017,13500$,70 000 km,Petrol
+740,Kia Optima 2.0,Kia,2018,16500$,65 000 km,Petrol
+741,Kia Sportage 1.7,Kia,2016,13500$,90 000 km,Diesel
+742,Kia Sorento 2.2,Kia,2018,25500$,50 000 km,Diesel
+743,Kia Optima PHEV,Kia,2018,24500$,30 000 km,Plug-in Hybrid
+744,Kia Ceed 1.4,Kia,2017,13500$,70 000 km,Petrol
+745,Kia K5 2.0,Kia,2018,14800$,110 000 km,Petrol
+746,Kia Sorento 2.5,Kia,2021,34000$,32 000 km,Petrol
+747,Kia Carnival 2.2,Kia,2020,36500$,41 000 km,Diesel
+748,Kia K5 2.0,Kia,2020,17500$,29 000 km,Petrol
+749,Kia Sorento 2.2,Kia,2018,28000$,70 000 km,Diesel
+750,Kia Carnival 2.2,Kia,2019,27000$,55 000 km,Diesel
+751,Kia K5 1.6T,Kia,2021,18500$,20 000 km,Petrol
+752,Kia Sorento 1.6T,Kia,2020,33000$,38 000 km,Hybrid
+753,Kia Carnival 3.5,Kia,2017,24000$,85 000 km,Petrol
+754,Kia K5 2.0,Kia,2017,13500$,120 000 km,LPG
+755,Kia Sorento 2.0,Kia,2021,36000$,25 000 km,Diesel
+756,Kia Carnival 2.2,Kia,2018,25500$,65 000 km,Diesel
+757,Kia K5 2.0,Kia,2019,15000$,95 000 km,Petrol
+758,Kia Sorento 2.5,Kia,2020,34500$,32 000 km,Petrol
+759,Kia Carnival 2.2,Kia,2017,15000$,140 000 km,Diesel
+760,Kia K5 2.0,Kia,2018,14700$,110 000 km,LPG
+761,Kia Sorento 2.2,Kia,2019,28500$,55 000 km,Diesel
+762,Kia Carnival 3.3,Kia,2018,25000$,78 000 km,Petrol
+763,Kia K5 2.0,Kia,2020,16800$,40 000 km,LPG
+764,Kia Sorento 2.0,Kia,2018,27500$,55 000 km,Diesel
+765,Kia Carnival 2.2,Kia,2017,14500$,150 000 km,Diesel
+766,Kia K5 2.0,Kia,2019,16500$,85 000 km,LPG
+767,Kia Sorento 2.5,Kia,2021,33500$,29 000 km,Petrol
+768,Kia K5 2.0,Kia,2020,17000$,35 000 km,Petrol
+769,Kia Sorento 2.2,Kia,2019,29000$,60 000 km,Diesel
+770,Kia Carnival 3.5,Kia,2018,26000$,70 000 km,Petrol
+771,Kia K5 1.6T,Kia,2021,19000$,22 000 km,Petrol
+772,Kia Sorento 2.0,Kia,2020,33500$,40 000 km,Petrol
+773,Kia Carnival 2.2,Kia,2019,27500$,50 000 km,Diesel
+774,Kia K5 2.0,Kia,2018,14500$,115 000 km,LPG
+775,Kia Sorento 2.5,Kia,2021,35000$,28 000 km,Petrol
+776,Kia Carnival 2.2,Kia,2017,15500$,130 000 km,Diesel
+777,Kia K5 2.0,Kia,2019,16000$,90 000 km,Petrol
+778,Kia Sorento 2.2,Kia,2020,34000$,35 000 km,Diesel
+779,Kia Carnival 2.2,Kia,2018,26500$,60 000 km,Diesel
+780,Kia K5 1.6T,Kia,2020,17500$,40 000 km,Petrol
+781,Kia Sorento 1.6T,Kia,2021,35500$,32 000 km,Hybrid
+782,Kia Carnival 3.3,Kia,2017,23500$,80 000 km,Petrol
+783,Kia K5 2.0,Kia,2017,13800$,120 000 km,Petrol
+784,Kia Sorento 2.0,Kia,2019,30000$,45 000 km,Petrol
+785,Kia Carnival 2.2,Kia,2019,28000$,48 000 km,Diesel
+786,Kia K5 2.0,Kia,2018,15000$,105 000 km,LPG
+787,Kia Sorento 2.5,Kia,2021,35500$,30 000 km,Petrol
+788,Kia Carnival 2.2,Kia,2017,14800$,145 000 km,Diesel
+789,Kia K5 2.0,Kia,2020,17200$,37 000 km,Petrol
+790,Kia Sorento 2.2,Kia,2018,28500$,58 000 km,Diesel
+791,Kia Carnival 3.5,Kia,2019,27000$,52 000 km,Petrol
+792,Kia K5 1.6T,Kia,2021,18000$,25 000 km,Petrol
+793,Kia Sorento 2.0,Kia,2020,32500$,36 000 km,Petrol
+794,Kia Carnival 2.2,Kia,2018,26000$,68 000 km,Diesel
+795,Kia K5 2.0,Kia,2017,14200$,118 000 km,LPG
+796,Kia Sorento 2.5,Kia,2021,34500$,29 000 km,Petrol
+797,Kia Morning 1.0,Kia,2018,9500$,115 000 km,Petrol
+798,Kia K7 3.0,Kia,2016,14400$.135 000 km,LPG
+799,Kia Sorento 2.2T,Kia,2021,31000$,87 000 km,Diesel,
+800,Kia K8 2.5,Kia,2021,37000$,33 500 km,Petrol
+
+800,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+801,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+800,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+801,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+802,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+803,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+804,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+805,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+806,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+807,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+808,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+809,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+810,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+
+811,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+812,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+813,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+814,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+815,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+816,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+817,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+818,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+819,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+820,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+
+821,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+822,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+823,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+824,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+825,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+826,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+827,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+828,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+829,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+820,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+
+830,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+831,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+832,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+833,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+834,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+835,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+836,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+837,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+838,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+839,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+830,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+
+840,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+841,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+842,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+843,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+844,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+845,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+846,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+847,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+848,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+849,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+840,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+
+850,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+851,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+852,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+853,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+854,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+855,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+856,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+857,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+858,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+859,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+
+
+
+
+
+
 
 
