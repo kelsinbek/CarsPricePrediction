@@ -619,7 +619,6 @@
 598,Hyundai ix25,Hyundai,2016,14000$,70 000 km,Petrol
 599,Hyundai Sonata,Hyundai,2005,6000$,140 000 km,
 600,Hyundai Coupe,Hyundai,2008,,100 000 km,Petrol
-
 601,BMW 530d xDrive,BMW,2017,48000$,40 000 km,Diesel
 602,BMW X4 xDrive20d,BMW,2018,42000$,45 000 km,Diesel
 603,BMW 640d Gran Coupe,BMW,2015,55000$,50 000 km,Diesel
@@ -820,79 +819,107 @@
 796,Kia Sorento 2.5,Kia,2021,34500$,29 000 km,Petrol
 797,Kia Morning 1.0,Kia,2018,9500$,115 000 km,Petrol
 798,Kia K7 3.0,Kia,2016,14400$.135 000 km,LPG
-799,Kia Sorento 2.2T,Kia,2021,31000$,87 000 km,Diesel,
-800,Kia K8 2.5,Kia,2021,37000$,33 500 km,Petrol
-
-800,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-801,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-800,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-801,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-802,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-803,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-804,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-805,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-806,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-807,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-808,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-809,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-810,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-
-811,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-812,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-813,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-814,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-815,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-816,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-817,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-818,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-819,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-820,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-
-821,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-822,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-823,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-824,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-825,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-826,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-827,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-828,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-829,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-820,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-
-830,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-831,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-832,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-833,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-834,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-835,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-836,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-837,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-838,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-839,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-830,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-
-840,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-841,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-842,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-843,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-844,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-845,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-846,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-847,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-848,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-849,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-840,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-
-850,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-851,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-852,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-853,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-854,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-855,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-856,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-857,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-858,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
-859,Honda Fit,Honda,2003,5718$,212 000 km,Petrol
+799,Kia Sorento 2.2T,Kia,2021,31000$,87 000 km,Diesel
+800,Honda Fit,Honda,2002,$5234,150 000 km,Petrol
+801,Honda Fit,Honda,2003,$4876,205 000 km,Petrol
+802,Honda Fit,Honda,2004,$7650,123 000 km,Petrol
+803,Honda Fit,Honda,2001,$6320,278 000 km,Petrol
+804,Honda Fit,Honda,2005,$7450,193 000 km,Petrol
+805,Honda Fit,Honda,2003,$5100,230 000 km,Petrol
+806,Honda Fit,Honda,2004,$5880,110 000 km,Petrol
+807,Honda Fit,Honda,2002,$4680,145 000 km,Petrol
+808,Honda Fit,Honda,2001,$7920,287 000 km,Petrol
+809,Honda Fit,Honda,2005,$6570,180 000 km,Petrol
+810,Honda Fit,Honda,2003,$4590,210 000 km,Petrol
+811,Honda Fit,Honda,2004,$5400,220 000 km,Petrol
+812,Honda Fit,Honda,2005,$6100,195 000 km,Petrol
+813,Honda Fit,Honda,2002,$5700,160 000 km,Petrol
+814,Honda Fit,Honda,2001,$6900,270 000 km,Petrol
+815,Honda Fit,Honda,2003,$4800,135 000 km,Petrol
+816,Honda Fit,Honda,2004,$5300,145 000 km,Petrol
+817,Honda Fit,Honda,2005,$7600,182 000 km,Petrol
+818,Honda Fit,Honda,2001,$6400,275 000 km,Petrol
+819,Honda Fit,Honda,2002,$4950,190 000 km,Petrol
+820,Honda Fit,Honda,2003,$5600,150 000 km,Petrol
+821,Honda Fit,Honda,2004,$6800,200 000 km,Petrol
+822,Honda Fit,Honda,2005,$7200,170 000 km,Petrol
+823,Honda Fit,Honda,2002,$4300,280 000 km,Petrol
+824,Honda Fit,Honda,2001,$4800,290 000 km,Petrol
+825,Honda Fit,Honda,2003,$7500,220 000 km,Petrol
+826,Honda Fit,Honda,2004,$5800,130 000 km,Petrol
+827,Honda Fit,Honda,2005,$6700,140 000 km,Petrol
+828,Honda Fit,Honda,2001,$4600,265 000 km,Petrol
+829,Honda Fit,Honda,2002,$6300,160 000 km,Petrol
+830,Honda Fit,Honda,2003,$7100,210 000 km,Petrol
+831,Honda Fit,Honda,2004,$4900,190 000 km,Petrol
+832,Honda Fit,Honda,2005,$6500,120 000 km,Petrol
+833,Honda Fit,Honda,2001,$4800,250 000 km,Petrol
+834,Honda Fit,Honda,2002,$5500,170 000 km,Petrol
+835,Honda Fit,Honda,2003,$6000,230 000 km,Petrol
+836,Honda Fit,Honda,2004,$7200,140 000 km,Petrol
+837,Honda Fit,Honda,2005,$7700,150 000 km,Petrol
+838,Honda Fit,Honda,2001,$5200,275 000 km,Petrol
+839,Honda Fit,Honda,2002,$4700,210 000 km,Petrol
+840,Honda Fit,Honda,2003,$6300,180 000 km,Petrol
+841,Honda Fit,Honda,2004,$5600,220 000 km,Petrol
+842,Honda Fit,Honda,2005,$6900,200 000 km,Petrol
+843,Honda Fit,Honda,2001,$4300,280 000 km,Petrol
+844,Honda Fit,Honda,2002,$5100,260 000 km,Petrol
+845,Honda Fit,Honda,2003,$4700,240 000 km,Petrol
+846,Honda Fit,Honda,2004,$5500,180 000 km,Petrol
+847,Honda Fit,Honda,2005,$7000,195 000 km,Petrol
+848,Honda Fit,Honda,2001,$5800,170 000 km,Petrol
+849,Honda Fit,Honda,2002,$6900,190 000 km,Petrol
+850,Honda Fit,Honda,2003,$5400,150 000 km,Petrol
+851,Honda Fit,Honda,2004,$7200,200 000 km,Petrol
+852,Honda Fit,Honda,2005,$6200,170 000 km,Petrol
+853,Honda Fit,Honda,2001,$6700,270 000 km,Petrol
+854,Honda Fit,Honda,2002,$5900,280 000 km,Petrol
+855,Honda Fit,Honda,2003,$5200,260 000 km,Petrol
+856,Honda Fit,Honda,2004,$4700,170 000 km,Petrol
+857,Honda Fit,Honda,2005,$6800,270 000 km,Petrol
+858,Honda Fit,Honda,2001,$6500,160 000 km,Petrol
+859,Honda Fit,Honda,2002,$4700,290 000 km,Petrol
+860,Honda Fit,Honda,2003,$7300,150 000 km,Petrol
+861,Honda Fit,Honda,2004,$5800,240 000 km,Petrol
+862,Honda Fit,Honda,2005,$4900,250 000 km,Petrol
+863,Honda Fit,Honda,2001,$5600,180 000 km,Petrol
+864,Honda Fit,Honda,2002,$6200,190 000 km,Petrol
+865,Honda Fit,Honda,2003,$5700,130 000 km,Petrol
+866,Honda Fit,Honda,2004,$6600,170 000 km,Petrol
+867,Honda Fit,Honda,2005,$7100,230 000 km,Petrol
+868,Honda Fit,Honda,2001,$5300,280 000 km,Petrol
+869,Honda Fit,Honda,2002,$6800,210 000 km,Petrol
+870,Honda Fit,Honda,2003,$5400,190 000 km,Petrol
+871,Honda Fit,Honda,2004,$6700,200 000 km,Petrol
+872,Honda Fit,Honda,2005,$4700,270 000 km,Petrol
+873,Honda Fit,Honda,2001,$6100,150 000 km,Petrol
+874,Honda Fit,Honda,2002,$4800,220 000 km,Petrol
+875,Honda Fit,Honda,2003,$6500,270 000 km,Petrol
+876,Honda Fit,Honda,2004,$5200,160 000 km,Petrol
+877,Honda Fit,Honda,2005,$4900,180 000 km,Petrol
+878,Honda Fit,Honda,2001,$7300,260 000 km,Petrol
+879,Honda Fit,Honda,2002,$6600,140 000 km,Petrol
+880,Honda Fit,Honda,2003,$6900,250 000 km,Petrol
+881,Honda Fit,Honda,2004,$5800,170 000 km,Petrol
+882,Honda Fit,Honda,2005,$5300,130 000 km,Petrol
+883,Honda Fit,Honda,2001,$5600,200 000 km,Petrol
+884,Honda Fit,Honda,2002,$6200,280 000 km,Petrol
+885,Honda Fit,Honda,2003,$7500,210 000 km,Petrol
+886,Honda Fit,Honda,2004,$4600,250 000 km,Petrol
+887,Honda Fit,Honda,2005,$6100,190 000 km,Petrol
+888,Honda Fit,Honda,2001,$4700,230 000 km,Petrol
+889,Honda Fit,Honda,2002,$5700,260 000 km,Petrol
+890,Honda Fit,Honda,2003,$6800,150 000 km,Petrol
+891,Honda Fit,Honda,2004,$4900,170 000 km,Petrol
+892,Honda Fit,Honda,2005,$6400,200 000 km,Petrol
+893,Honda Fit,Honda,2001,$7500,180 000 km,Petrol
+894,Honda Fit,Honda,2002,$5300,250 000 km,Petrol
+895,Honda Fit,Honda,2003,$5600,220 000 km,Petrol
+896,Honda Fit,Honda,2004,$6000,240 000 km,Petrol
+897,Honda Fit,Honda,2005,$6700,210 000 km,Petrol
+898,Honda Fit,Honda,2001,$6800,270 000 km,Petrol
+899,Honda Fit,Honda,2002,$4800,140 000 km,Petrol
 
 
 

@@ -6,7 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 cors = CORS(app)
-model = pickle.load(open('LinearRegressionModel.pkl', 'rb'))
+model = pickle.load(open('RandomForestRegressionModel.pkl', 'rb'))
 
 car = pd.read_csv('dataset/cleaned_data_cars.csv')
 
