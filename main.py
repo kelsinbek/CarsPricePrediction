@@ -17,7 +17,7 @@ def index():
     year=sorted(car['year'].unique(),reverse=True)
     fuel_type=car['fuel_type'].unique()
 
-    companies.insert(0,'Select Company')
+    companies.insert(0,'Выберите компанию')
     return render_template('index.html',companies=companies, car_models=car_models, years=year,fuel_types=fuel_type)
 
 
