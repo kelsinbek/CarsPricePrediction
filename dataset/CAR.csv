@@ -1,9 +1,6 @@
 ,name,company,year,Price,kms_driven,fuel_type
 0,Toyota Camry 55 SE USA,Toyota,2015,15800$,150 000 km,Hybrid
 1,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
-1,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
-1,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
-1,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
 2,Toyota Camry 70 XSE,Toyota,2019,20500$,180 246 km,Petrol
 3,Toyota Highlander IV (U70),Toyota,2019,45300$,108 000 km,Hybrid
 4,Toyota Crown XVI (S235),Toyota,2023,51500$,7 750 km,Hybrid
@@ -622,40 +619,44 @@
 598,Hyundai ix25,Hyundai,2016,14000$,70 000 km,Petrol
 599,Hyundai Sonata,Hyundai,2005,6000$,140 000 km,
 600,Hyundai Coupe,Hyundai,2008,,100 000 km,Petrol
-484,BMW 530d xDrive,BMW,2017,48000$,40 000 km,Diesel
-485,BMW X4 xDrive20d,BMW,2018,42000$,45 000 km,Diesel
-486,BMW 640d Gran Coupe,BMW,2015,55000$,50 000 km,Diesel
-487,BMW X6 xDrive40d,BMW,2016,58000$,35 000 km,Diesel
-488,BMW M4 Convertible,BMW,2017,90000$,20 000 km,Petrol
-489,BMW X2 sDrive18d,BMW,2019,32000$,35 000 km,Diesel
-490,BMW 125d Hatchback,BMW,2016,30000$,50 000 km,Diesel
-491,BMW 220i Convertible,BMW,2017,35000$,40 000 km,Petrol
-492,BMW X3 M Competition,BMW,2021,85000$,15 000 km,Petrol
-493,BMW 330e Plug-in Hybrid,BMW,2018,50000$,30 000 km,Hybrid
-494,BMW 420i Gran Coupe,BMW,2016,38000$,45 000 km,Petrol
-495,BMW X4 M40i,BMW,2019,60000$,20 000 km,Petrol
-496,BMW 520d Touring,BMW,2017,,50 000 km,Diesel
-497,BMW X5 xDrive30d,BMW,2018,,25 000 km,Diesel
-498,BMW 330i xDrive,BMW,2019,45000$,40 000 km,Petrol
-499,BMW X1 sDrive18i,BMW,2016,25000$,60 000 km,Petrol
-500,BMW 318d,BMW,,32000$,40 000 km,Diesel
-74,Toyota Camry 65 LE,Toyota,2017,20200$,55 100 km,Hybrid
-75,Toyota Corolla 55 SE,Toyota,2018,,28 700 km,Hybrid
-76,Toyota Avalon Touring,Toyota,2020,38700$,20 200 km,Petrol
-77,Toyota Crown Athlete,Toyota,2021,52500$,10 800 km,Hybrid
-78,Toyota Prius XLE AWD-e,Toyota,2019,25600$,40 200 km,Petrol
-79,Toyota Supra 2.0,Toyota,2021,55700$,10 100 km,Petrol
-80,Toyota Yaris Sedan,Toyota,2020,17200$,30 800 km,Hybrid
-81,Toyota Highlander XLE,Toyota,2018,45700$,25 500 km,Petrol
-82,Toyota 4Runner SR5,Toyota,2017,,35 200 km,Hybrid
-83,Toyota Prado GXL,Toyota,2019,61200$,15 200 km,Petrol
-84,Toyota Estima Hybrid Premium,Toyota,2022,32500$,22 600 km,Hybrid
-85,Toyota Alphard Executive,Toyota,2018,75200$,10 400 km,Petrol
-86,Toyota Camry 60 SE,Toyota,2016,18200$,60 200 km,Hybrid
-87,Toyota Corolla 45 LE,Toyota,2017,16200$,32 700 km,Hybrid
-88,Toyota Avalon XSE Nightshade,Toyota,2022,42700$,18 200 km,Petrol
-89,Toyota Camry 70 LE,Toyota,2019,20500$,65 500 km,Hybrid
-90,Toyota Corolla 60 SE Nightshade,Toyota,2021,19800$,23 700 km,Hybrid
-91,Toyota Avalon Limited Hybrid,Toyota,2020,39700$,21 400 km,Petrol
-92,Toyota Crown Majesta,Toyota,2023,75000$,9 800 km,Hybrid
-93,Toyota Prius Prime Limited,,2022,26900$,35 800 km,Petrol
+
+601,BMW 530d xDrive,BMW,2017,48000$,40 000 km,Diesel
+602,BMW X4 xDrive20d,BMW,2018,42000$,45 000 km,Diesel
+603,BMW 640d Gran Coupe,BMW,2015,55000$,50 000 km,Diesel
+604,BMW X6 xDrive40d,BMW,2016,58000$,35 000 km,Diesel
+605,BMW M4 Convertible,BMW,2017,90000$,20 000 km,Petrol
+606,BMW X2 sDrive18d,BMW,2019,32000$,35 000 km,Diesel
+607,BMW 125d Hatchback,BMW,2016,30000$,50 000 km,Diesel
+608,BMW 220i Convertible,BMW,2017,35000$,40 000 km,Petrol
+609,BMW X3 M Competition,BMW,2021,85000$,15 000 km,Petrol
+610,BMW 330e Plug-in Hybrid,BMW,2018,50000$,30 000 km,Hybrid
+611,BMW 420i Gran Coupe,BMW,2016,38000$,45 000 km,Petrol
+612,BMW X4 M40i,BMW,2019,60000$,20 000 km,Petrol
+613,BMW 520d Touring,BMW,2017,,50 000 km,Diesel
+614,BMW X5 xDrive30d,BMW,2018,,25 000 km,Diesel
+615,BMW 330i xDrive,BMW,2019,45000$,40 000 km,Petrol
+616,BMW X1 sDrive18i,BMW,2016,25000$,60 000 km,Petrol
+617,BMW 318d,BMW,,32000$,40 000 km,Diesel
+618,Toyota Camry 65 LE,Toyota,2017,20200$,55 100 km,Hybrid
+619,Toyota Corolla 55 SE,Toyota,2018,,28 700 km,Hybrid
+620,Toyota Avalon Touring,Toyota,2020,38700$,20 200 km,Petrol
+621,Toyota Crown Athlete,Toyota,2021,52500$,10 800 km,Hybrid
+622,Toyota Prius XLE AWD-e,Toyota,2019,25600$,40 200 km,Petrol
+623,Toyota Supra 2.0,Toyota,2021,55700$,10 100 km,Petrol
+624,Toyota Yaris Sedan,Toyota,2020,17200$,30 800 km,Hybrid
+625,Toyota Highlander XLE,Toyota,2018,45700$,25 500 km,Petrol
+626,Toyota 4Runner SR5,Toyota,2017,,35 200 km,Hybrid
+627,Toyota Prado GXL,Toyota,2019,61200$,15 200 km,Petrol
+628,Toyota Estima Hybrid Premium,Toyota,2022,32500$,22 600 km,Hybrid
+629,Toyota Alphard Executive,Toyota,2018,75200$,10 400 km,Petrol
+630,Toyota Camry 60 SE,Toyota,2016,18200$,60 200 km,Hybrid
+631,Toyota Corolla 45 LE,Toyota,2017,16200$,32 700 km,Hybrid
+632,Toyota Avalon XSE Nightshade,Toyota,2022,42700$,18 200 km,Petrol
+633,Toyota Camry 70 LE,Toyota,2019,20500$,65 500 km,Hybrid
+634,Toyota Corolla 60 SE Nightshade,Toyota,2021,19800$,23 700 km,Hybrid
+635,Toyota Avalon Limited Hybrid,Toyota,2020,39700$,21 400 km,Petrol
+636,Toyota Crown Majesta,Toyota,2023,75000$,9 800 km,Hybrid
+637,Toyota Prius Prime Limited,,2022,26900$,35 800 km,Petrol
+638,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
+639,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
+640,Toyota Land Cruiser 200,Toyota,2015,47000$,145 000 km,Petrol
