@@ -2,7 +2,7 @@
 <html lang="en">
 <head xmlns="http://www.w3.org/1999/xhtml">
     <meta charset="UTF-8">
-    <title>Предсказание цен автомобилей</title>
+    <title>Car Price Predictor</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -16,18 +16,47 @@
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
 
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .photo {
+            flex: 1;
+            padding: 20px;
+        }
+        .form-container {
+            flex: 1;
+            padding: 20px;
+        }
+        .slider {
+            width: 100%;
+        }
+        .card-header {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .card-body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+    </style>
 </head>
 <body class="bg-dark">
 
 <div class="container">
     <div class="row">
-        <div class="card mt-50" style="width: 100%; height: 100%">
+        <div class="card mt-50">
             <div class="card-header" style="text-align: center">
-                <h1>Добро пожаловать в Предсказание цен автомобилей</h1>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h1>Добро пожаловать в Cars Prise Prediction</h1>
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-12 col-md-6" style="text-align: center;">
+                    <div class="col-md-6 text-center">
                         <!-- Place your car image here -->
                         <img src="/static/img/car_img.jpg" alt="Car Image" style="max-width: 100%; height: auto;">
                     </div>
@@ -84,7 +113,7 @@
                         </form>
                         <br>
                         <div class="row">
-                            <div class="col-12" style="text-align: center">
+                            <div class="col-12 text-center">
                                 <h4><span id="prediction"></span></h4>
                             </div>
                         </div>
@@ -96,38 +125,24 @@
 </div>
 
 <script>
-
     function load_car_models(company_id, car_model_id) {
         var company = document.getElementById(company_id);
         var car_model = document.getElementById(car_model_id);
         console.log(company.value);
         car_model.value = "";
         car_model.innerHTML = "";
-        {%
-            for company in companies %
-        }
-        if (company.value == "{{ company }}") {
-            {%
-                for model in car_models %
+        {% for company in companies %}
+            if (company.value == "{{ company }}") {
+                {% for model in car_models %}
+                    {% if company in model %}
+                        var newOption = document.createElement("option");
+                        newOption.value = "{{ model }}";
+                        newOption.innerHTML = "{{ model }}";
+                        car_model.options.add(newOption);
+                    {% endif %}
+                {% endfor %}
             }
-            {%
-                if company in model %
-            }
-
-            var newOption = document.createElement("option");
-            newOption.value = "{{ model }}";
-            newOption.innerHTML = "{{ model }}";
-            car_model.options.add(newOption);
-            {%
-                endif %
-            }
-            {%
-                endfor %
-            }
-        }
-        {%
-            endfor %
-        }
+        {% endfor %}
     }
 
     function form_handler(event) {
@@ -142,22 +157,18 @@
         var xhr = new XMLHttpRequest({mozSystem: true});
 
         xhr.open('POST', '/predict', true);
-        document.getElementById('prediction').innerHTML = "Ждите! Прогнозирование цены.....";
+        document.getElementById('prediction').innerHTML = "Wait! Predicting Price.....";
         xhr.onreadystatechange = function () {
             if (xhr.readyState == XMLHttpRequest.DONE) {
-                document.getElementById('prediction').innerHTML = "Предсказание:" + xhr.responseText + " $";
-
+                document.getElementById('prediction').innerHTML = "Prediction:" + xhr.responseText + " $";
             }
         };
 
-        xhr.onload = function () {
-        };
+        xhr.onload = function () {};
 
         xhr.send(fd);
     }
-
 </script>
-
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -1,4 +1,4 @@
-,name,company,year,Price,kms_driven,fuel_type
+Unnamed: 0,name,company,year,Price,kms_driven,fuel_type
 0,Toyota Camry 55,Toyota,2015,15800,150000,Hybrid
 1,Toyota Land Cruiser,Toyota,2015,47000,145000,Petrol
 2,Toyota Camry 70,Toyota,2019,20500,180246,Petrol
@@ -11,7 +11,7 @@
 9,Toyota Sequoia,Toyota,2022,98500,12000,Petrol
 10,Toyota Camry 55,Toyota,2016,19800,130000,Hybrid
 11,Toyota Land Cruiser,Toyota,2022,107000,45000,Petrol
-12,ToyotaCamry 70 SE,Toyota,2021,26500,80246,Hybrid
+12,Toyota Camry 70,Toyota,2021,26500,80246,Hybrid
 13,Toyota Land Cruiser,Toyota,2010,27000,245000,Petrol
 14,Toyota Camry 75,Toyota,2023,30500,60246,Hybrid
 15,Toyota Highlander,Toyota,2023,49300,52000,Hybrid
@@ -609,34 +609,296 @@
 596,Hyundai HB20,Hyundai,2017,10000,70000,Petrol
 597,Hyundai Santro Xing,Hyundai,2013,8000,90000,Petrol
 598,Hyundai ix25,Hyundai,2016,14000,70000,Petrol
-484,BMW 530d xDrive,BMW,2017,48000,40000,Diesel
-485,BMW X4 xDrive20d,BMW,2018,42000,45000,Diesel
-486,BMW 640d Gran,BMW,2015,55000,50000,Diesel
-487,BMW X6 xDrive40d,BMW,2016,58000,35000,Diesel
-488,BMW M4 Convertible,BMW,2017,90000,20000,Petrol
-489,BMW X2 sDrive18d,BMW,2019,32000,35000,Diesel
-490,BMW 125d Hatchback,BMW,2016,30000,50000,Diesel
-491,BMW 220i Convertible,BMW,2017,35000,40000,Petrol
-492,BMW X3 M,BMW,2021,85000,15000,Petrol
-493,BMW 330e Plug-in,BMW,2018,50000,30000,Hybrid
-494,BMW 420i Gran,BMW,2016,38000,45000,Petrol
-495,BMW X4 M40i,BMW,2019,60000,20000,Petrol
-498,BMW 330i xDrive,BMW,2019,45000,40000,Petrol
-499,BMW X1 sDrive18i,BMW,2016,25000,60000,Petrol
-74,Toyota Camry 65,Toyota,2017,20200,55100,Hybrid
-76,Toyota Avalon Touring,Toyota,2020,38700,20200,Petrol
-77,Toyota Crown Athlete,Toyota,2021,52500,10800,Hybrid
-78,Toyota Prius XLE,Toyota,2019,25600,40200,Petrol
-79,Toyota Supra 2.0,Toyota,2021,55700,10100,Petrol
-80,Toyota Yaris Sedan,Toyota,2020,17200,30800,Hybrid
-81,Toyota Highlander XLE,Toyota,2018,45700,25500,Petrol
-83,Toyota Prado GXL,Toyota,2019,61200,15200,Petrol
-84,Toyota Estima Hybrid,Toyota,2022,32500,22600,Hybrid
-85,Toyota Alphard Executive,Toyota,2018,75200,10400,Petrol
-86,Toyota Camry 60,Toyota,2016,18200,60200,Hybrid
-87,Toyota Corolla 45,Toyota,2017,16200,32700,Hybrid
-88,Toyota Avalon XSE,Toyota,2022,42700,18200,Petrol
-89,Toyota Camry 70,Toyota,2019,20500,65500,Hybrid
-90,Toyota Corolla 60,Toyota,2021,19800,23700,Hybrid
-91,Toyota Avalon Limited,Toyota,2020,39700,21400,Petrol
-92,Toyota Crown Majesta,Toyota,2023,75000,9800,Hybrid
+601,BMW 530d xDrive,BMW,2017,48000,40000,Diesel
+602,BMW X4 xDrive20d,BMW,2018,42000,45000,Diesel
+603,BMW 640d Gran,BMW,2015,55000,50000,Diesel
+604,BMW X6 xDrive40d,BMW,2016,58000,35000,Diesel
+605,BMW M4 Convertible,BMW,2017,90000,20000,Petrol
+606,BMW X2 sDrive18d,BMW,2019,32000,35000,Diesel
+607,BMW 125d Hatchback,BMW,2016,30000,50000,Diesel
+608,BMW 220i Convertible,BMW,2017,35000,40000,Petrol
+609,BMW X3 M,BMW,2021,85000,15000,Petrol
+610,BMW 330e Plug-in,BMW,2018,50000,30000,Hybrid
+611,BMW 420i Gran,BMW,2016,38000,45000,Petrol
+612,BMW X4 M40i,BMW,2019,60000,20000,Petrol
+615,BMW 330i xDrive,BMW,2019,45000,40000,Petrol
+616,BMW X1 sDrive18i,BMW,2016,25000,60000,Petrol
+618,Toyota Camry 65,Toyota,2017,20200,55100,Hybrid
+620,Toyota Avalon Touring,Toyota,2020,38700,20200,Petrol
+621,Toyota Crown Athlete,Toyota,2021,52500,10800,Hybrid
+622,Toyota Prius XLE,Toyota,2019,25600,40200,Petrol
+623,Toyota Supra 2.0,Toyota,2021,55700,10100,Petrol
+624,Toyota Yaris Sedan,Toyota,2020,17200,30800,Hybrid
+625,Toyota Highlander XLE,Toyota,2018,45700,25500,Petrol
+627,Toyota Prado GXL,Toyota,2019,61200,15200,Petrol
+628,Toyota Estima Hybrid,Toyota,2022,32500,22600,Hybrid
+629,Toyota Alphard Executive,Toyota,2018,75200,10400,Petrol
+630,Toyota Camry 60,Toyota,2016,18200,60200,Hybrid
+631,Toyota Corolla 45,Toyota,2017,16200,32700,Hybrid
+632,Toyota Avalon XSE,Toyota,2022,42700,18200,Petrol
+633,Toyota Camry 70,Toyota,2019,20500,65500,Hybrid
+634,Toyota Corolla 60,Toyota,2021,19800,23700,Hybrid
+635,Toyota Avalon Limited,Toyota,2020,39700,21400,Petrol
+636,Toyota Crown Majesta,Toyota,2023,75000,9800,Hybrid
+638,Toyota Land Cruiser,Toyota,2015,47000,145000,Petrol
+639,Toyota Land Cruiser,Toyota,2015,47000,145000,Petrol
+640,Toyota Land Cruiser,Toyota,2015,47000,145000,Petrol
+641,Honda Fit,Honda,2002,4529,350000,Petrol
+642,Honda Fit,Honda,2003,4869,200000,Petrol
+643,Honda Fit,Honda,2003,6568,350000,Petrol
+644,Honda Fit,Honda,2003,6794,320000,Petrol
+645,Honda Fit,Honda,2004,6000,550000,Petrol
+646,Honda Fit,Honda,2003,6228,300000,Petrol
+647,Honda Fit,Honda,2002,5662,240000,Petrol
+648,Honda Fit,Honda,2006,6228,340000,Petrol
+649,Honda Fit,Honda,2003,5662,190000,Petrol
+650,Honda Fit,Honda,2012,9000,134000,Petrol
+651,Honda Fit,Honda,2008,6600,237000,Petrol
+651,Honda Fit,Honda,2013,8500,50000,Petrol
+652,Honda Fit,Honda,2003,7250,175000,Petrol
+653,Honda Fit,Honda,2004,7700,250000,Petrol
+654,Honda Fit,Honda,2003,6500,200000,Petrol
+655,Honda Fit,Honda,2004,5096,223894,Petrol
+656,Honda Fit,Honda,2005,7021,280000,Petrol
+657,Honda Fit,Honda,2001,5350,290000,Petrol
+658,Honda Fit,Honda,2004,5096,223874,Petrol
+659,Honda Fit,Honda,2005,7021,120000,Petrol
+660,Honda Fit,Honda,2001,5350,290000,Petrol
+661,Honda Fit,Honda,2008,7500,106550,Petrol
+662,Honda Fit,Honda,2002,4900,175000,Petrol
+663,Honda Fit,Honda,2004,9059,180000,Petrol
+664,Honda Fit,Honda,2001,5662,320000,Petrol
+665,Honda Fit,Honda,2004,6558,220000,Petrol
+666,Honda Fit,Honda,2003,4416,290000,Petrol
+667,Honda Fit,Honda,2003,7700,310000,Petrol
+668,Honda Fit,Honda,2004,6900,262000,Petrol
+669,Honda Fit,Honda,2002,4700,250000,Petrol
+660,Honda Fit,Honda,2003,7247,227000,Petrol
+671,Honda Fit,Honda,2009,7400,185000,Petrol
+671,Honda Fit,Honda,2004,6681,294896,Petrol
+672,Honda Fit,Honda,2003,7250,175000,Petrol
+673,Honda Fit,Honda,2007,8500,120000,Petrol
+674,Honda Fit,Honda,2004,7927,120000,Petrol
+675,Honda Fit,Honda,2011,9000,86600,Petrol
+676,Honda Fit,Honda,2002,4726,350000,Petrol
+677,Honda Fit,Honda,2002,5332,290000,Petrol
+678,Honda Fit,Honda,2003,6568,447972,Petrol
+679,Honda Fit,Honda,2002,4869,333622,Petrol
+680,Honda Fit,Honda,2005,4400,280000,Petrol
+681,Honda Fit,Honda,2003,7200,278000,Petrol
+682,Honda Fit,Honda,2008,7600,180000,Petrol
+683,Honda Fit,Honda,2004,7055,121000,Petrol
+684,Honda Fit,Honda,2008,7060,180000,Petrol
+685,Honda Fit,Honda,2004,7055,121000,Petrol
+686,Honda Fit,Honda,2003,5718,212000,Petrol
+687,Honda Fit,Honda,2004,5662,223000,Petrol
+688,Honda Fit,Honda,2006,8338,46250,Petrol
+689,Honda Fit,Honda,2002,4077,334000,Petrol
+690,Honda Fit,Honda,2003,5888,299999,Petrol
+691,Honda Fit,Honda,2016,6700,200001,Petrol
+692,Honda Fit,Honda,2002,6200,100000,Petrol
+693,Honda Fit,Honda,2004,5300,250000,Petrol
+694,Honda Fit,Honda,2002,6300,170000,Petrol
+695,Honda Fit,Honda,2006,7000,222000,Petrol
+696,Honda Fit,Honda,2004,7813,280000,Petrol
+697,Honda Fit,Honda,2010,10000,164000,Petrol
+698,Honda Fit,Honda,2006,9000,127589,Petrol
+699,Honda Fit,Honda,2002,5500,340000,Petrol
+700,Kia K5 2.0,Kia,2018,18500,98000,Petrol
+701,Kia K7 3.3,Kia,2016,15000,130000,Petrol
+702,Kia Sportage 2.0,Kia,2020,20500,65000,Petrol
+703,Kia K5 2.0,Kia,2018,16000,112000,LPG
+704,Kia Seltos 1.6,Kia,2020,18000,45000,Petrol
+705,Kia K7 3.0,Kia,2018,14500,199000,LPG
+706,Kia K5 2.0,Kia,2018,13500,195000,LPG
+707,Kia K5 2.0,Kia,2016,13500,65000,Petrol
+708,Kia Sorento 1.6,Kia,2020,37000,44400,Hybrid
+709,Kia Sorento 2.0,Kia,2016,19300,90000,Diesel
+710,Kia Optima 2.4,Kia,2018,10000,89000,Petrol
+711,Kia Sorento 8-speed,Kia,2017,20500,140000,Diesel
+712,Kia Carnival 2.2,Kia,2021,27500,60000,Diesel
+713,Kia K5 2.0,Kia,2018,14500,97000,LPG
+714,Kia K3 1.6,Kia,2018,13000,130000,Petrol
+715,Kia Morning 1.0,Kia,2020,8900,38800,Petrol
+716,Kia Morning 1.0,Kia,2019,9000,70000,LPG
+717,Kia Carnival 2.2,Kia,2020,36500,41000,Diesel
+718,Kia Carnival 2.2,Kia,2017,15300,126000,Diesel
+719,Kia Sorento 2.5,Kia,2021,35000,39000,Petrol
+720,Kia K5 LPi,Kia,2019,15900,102000,LPG
+721,Kia K5 2.0,Kia,2019,16500,85000,Petrol
+722,Kia Sorento 2.2,Kia,2020,32500,40000,Diesel
+723,Kia Carnival 2.2,Kia,2018,27000,75000, Diesel
+724,Kia K5 1.6,Kia,2020,16500,50000,Petrol
+725,Kia Sportage 1.6,Kia,2019,19000,55000,Petrol
+726,Kia Rio 1.4,Kia,2017,11000,85000,Petrol
+728,Kia Seltos 1.4,Kia,2020,20500,48000,Petrol
+729,Kia Optima 2.0,Kia,2017,13500,110000,Petrol
+730,Kia Sportage 1.7,Kia,2016,14500,80000,Diesel
+731,Kia Sorento 2.2,Kia,2019,27500,42000,Diesel
+732,Kia Sorento 2.0,Kia,2020,32000,30000,Petrol
+733,Kia Sportage 2.0,Kia,2017,16500,70000,Petrol
+734,Kia Soul 1.6,Kia,2018,14500,55000,Petrol
+735,Kia Optima 1.7,Kia,2016,11500,90000,Diesel
+736,Kia Sorento 2.2,Kia,2020,35000,28000,Diesel
+737,Kia Rio 1.4,Kia,2020,14000,40000,Petrol
+738,Kia Sportage 1.6,Kia,2018,17500,55000,Petrol
+739,Kia Soul 1.6,Kia,2017,13500,70000,Petrol
+740,Kia Optima 2.0,Kia,2018,16500,65000,Petrol
+741,Kia Sportage 1.7,Kia,2016,13500,90000,Diesel
+742,Kia Sorento 2.2,Kia,2018,25500,50000,Diesel
+743,Kia Optima PHEV,Kia,2018,24500,30000,Plug-in Hybrid
+744,Kia Ceed 1.4,Kia,2017,13500,70000,Petrol
+745,Kia K5 2.0,Kia,2018,14800,110000,Petrol
+746,Kia Sorento 2.5,Kia,2021,34000,32000,Petrol
+747,Kia Carnival 2.2,Kia,2020,36500,41000,Diesel
+748,Kia K5 2.0,Kia,2020,17500,29000,Petrol
+749,Kia Sorento 2.2,Kia,2018,28000,70000,Diesel
+750,Kia Carnival 2.2,Kia,2019,27000,55000,Diesel
+751,Kia K5 1.6T,Kia,2021,18500,20000,Petrol
+752,Kia Sorento 1.6T,Kia,2020,33000,38000,Hybrid
+753,Kia Carnival 3.5,Kia,2017,24000,85000,Petrol
+754,Kia K5 2.0,Kia,2017,13500,120000,LPG
+755,Kia Sorento 2.0,Kia,2021,36000,25000,Diesel
+756,Kia Carnival 2.2,Kia,2018,25500,65000,Diesel
+757,Kia K5 2.0,Kia,2019,15000,95000,Petrol
+758,Kia Sorento 2.5,Kia,2020,34500,32000,Petrol
+759,Kia Carnival 2.2,Kia,2017,15000,140000,Diesel
+760,Kia K5 2.0,Kia,2018,14700,110000,LPG
+761,Kia Sorento 2.2,Kia,2019,28500,55000,Diesel
+762,Kia Carnival 3.3,Kia,2018,25000,78000,Petrol
+763,Kia K5 2.0,Kia,2020,16800,40000,LPG
+764,Kia Sorento 2.0,Kia,2018,27500,55000,Diesel
+765,Kia Carnival 2.2,Kia,2017,14500,150000,Diesel
+766,Kia K5 2.0,Kia,2019,16500,85000,LPG
+767,Kia Sorento 2.5,Kia,2021,33500,29000,Petrol
+768,Kia K5 2.0,Kia,2020,17000,35000,Petrol
+769,Kia Sorento 2.2,Kia,2019,29000,60000,Diesel
+770,Kia Carnival 3.5,Kia,2018,26000,70000,Petrol
+771,Kia K5 1.6T,Kia,2021,19000,22000,Petrol
+772,Kia Sorento 2.0,Kia,2020,33500,40000,Petrol
+773,Kia Carnival 2.2,Kia,2019,27500,50000,Diesel
+774,Kia K5 2.0,Kia,2018,14500,115000,LPG
+775,Kia Sorento 2.5,Kia,2021,35000,28000,Petrol
+776,Kia Carnival 2.2,Kia,2017,15500,130000,Diesel
+777,Kia K5 2.0,Kia,2019,16000,90000,Petrol
+778,Kia Sorento 2.2,Kia,2020,34000,35000,Diesel
+779,Kia Carnival 2.2,Kia,2018,26500,60000,Diesel
+780,Kia K5 1.6T,Kia,2020,17500,40000,Petrol
+781,Kia Sorento 1.6T,Kia,2021,35500,32000,Hybrid
+782,Kia Carnival 3.3,Kia,2017,23500,80000,Petrol
+783,Kia K5 2.0,Kia,2017,13800,120000,Petrol
+784,Kia Sorento 2.0,Kia,2019,30000,45000,Petrol
+785,Kia Carnival 2.2,Kia,2019,28000,48000,Diesel
+786,Kia K5 2.0,Kia,2018,15000,105000,LPG
+787,Kia Sorento 2.5,Kia,2021,35500,30000,Petrol
+788,Kia Carnival 2.2,Kia,2017,14800,145000,Diesel
+789,Kia K5 2.0,Kia,2020,17200,37000,Petrol
+790,Kia Sorento 2.2,Kia,2018,28500,58000,Diesel
+791,Kia Carnival 3.5,Kia,2019,27000,52000,Petrol
+792,Kia K5 1.6T,Kia,2021,18000,25000,Petrol
+793,Kia Sorento 2.0,Kia,2020,32500,36000,Petrol
+794,Kia Carnival 2.2,Kia,2018,26000,68000,Diesel
+795,Kia K5 2.0,Kia,2017,14200,118000,LPG
+796,Kia Sorento 2.5,Kia,2021,34500,29000,Petrol
+797,Kia Morning 1.0,Kia,2018,9500,115000,Petrol
+799,Kia Sorento 2.2T,Kia,2021,31000,87000,Diesel
+800,Honda Fit,Honda,2002,5234,150000,Petrol
+801,Honda Fit,Honda,2003,4876,205000,Petrol
+802,Honda Fit,Honda,2004,7650,123000,Petrol
+803,Honda Fit,Honda,2001,6320,278000,Petrol
+804,Honda Fit,Honda,2005,7450,193000,Petrol
+805,Honda Fit,Honda,2003,5100,230000,Petrol
+806,Honda Fit,Honda,2004,5880,110000,Petrol
+807,Honda Fit,Honda,2002,4680,145000,Petrol
+808,Honda Fit,Honda,2001,7920,287000,Petrol
+809,Honda Fit,Honda,2005,6570,180000,Petrol
+810,Honda Fit,Honda,2003,4590,210000,Petrol
+811,Honda Fit,Honda,2004,5400,220000,Petrol
+812,Honda Fit,Honda,2005,6100,195000,Petrol
+813,Honda Fit,Honda,2002,5700,160000,Petrol
+814,Honda Fit,Honda,2001,6900,270000,Petrol
+815,Honda Fit,Honda,2003,4800,135000,Petrol
+816,Honda Fit,Honda,2004,5300,145000,Petrol
+817,Honda Fit,Honda,2005,7600,182000,Petrol
+818,Honda Fit,Honda,2001,6400,275000,Petrol
+819,Honda Fit,Honda,2002,4950,190000,Petrol
+820,Honda Fit,Honda,2003,5600,150000,Petrol
+821,Honda Fit,Honda,2004,6800,200000,Petrol
+822,Honda Fit,Honda,2005,7200,170000,Petrol
+823,Honda Fit,Honda,2002,4300,280000,Petrol
+824,Honda Fit,Honda,2001,4800,290000,Petrol
+825,Honda Fit,Honda,2003,7500,220000,Petrol
+826,Honda Fit,Honda,2004,5800,130000,Petrol
+827,Honda Fit,Honda,2005,6700,140000,Petrol
+828,Honda Fit,Honda,2001,4600,265000,Petrol
+829,Honda Fit,Honda,2002,6300,160000,Petrol
+830,Honda Fit,Honda,2003,7100,210000,Petrol
+831,Honda Fit,Honda,2004,4900,190000,Petrol
+832,Honda Fit,Honda,2005,6500,120000,Petrol
+833,Honda Fit,Honda,2001,4800,250000,Petrol
+834,Honda Fit,Honda,2002,5500,170000,Petrol
+835,Honda Fit,Honda,2003,6000,230000,Petrol
+836,Honda Fit,Honda,2004,7200,140000,Petrol
+837,Honda Fit,Honda,2005,7700,150000,Petrol
+838,Honda Fit,Honda,2001,5200,275000,Petrol
+839,Honda Fit,Honda,2002,4700,210000,Petrol
+840,Honda Fit,Honda,2003,6300,180000,Petrol
+841,Honda Fit,Honda,2004,5600,220000,Petrol
+842,Honda Fit,Honda,2005,6900,200000,Petrol
+843,Honda Fit,Honda,2001,4300,280000,Petrol
+844,Honda Fit,Honda,2002,5100,260000,Petrol
+845,Honda Fit,Honda,2003,4700,240000,Petrol
+846,Honda Fit,Honda,2004,5500,180000,Petrol
+847,Honda Fit,Honda,2005,7000,195000,Petrol
+848,Honda Fit,Honda,2001,5800,170000,Petrol
+849,Honda Fit,Honda,2002,6900,190000,Petrol
+850,Honda Fit,Honda,2003,5400,150000,Petrol
+851,Honda Fit,Honda,2004,7200,200000,Petrol
+852,Honda Fit,Honda,2005,6200,170000,Petrol
+853,Honda Fit,Honda,2001,6700,270000,Petrol
+854,Honda Fit,Honda,2002,5900,280000,Petrol
+855,Honda Fit,Honda,2003,5200,260000,Petrol
+856,Honda Fit,Honda,2004,4700,170000,Petrol
+857,Honda Fit,Honda,2005,6800,270000,Petrol
+858,Honda Fit,Honda,2001,6500,160000,Petrol
+859,Honda Fit,Honda,2002,4700,290000,Petrol
+860,Honda Fit,Honda,2003,7300,150000,Petrol
+861,Honda Fit,Honda,2004,5800,240000,Petrol
+862,Honda Fit,Honda,2005,4900,250000,Petrol
+863,Honda Fit,Honda,2001,5600,180000,Petrol
+864,Honda Fit,Honda,2002,6200,190000,Petrol
+865,Honda Fit,Honda,2003,5700,130000,Petrol
+866,Honda Fit,Honda,2004,6600,170000,Petrol
+867,Honda Fit,Honda,2005,7100,230000,Petrol
+868,Honda Fit,Honda,2001,5300,280000,Petrol
+869,Honda Fit,Honda,2002,6800,210000,Petrol
+870,Honda Fit,Honda,2003,5400,190000,Petrol
+871,Honda Fit,Honda,2004,6700,200000,Petrol
+872,Honda Fit,Honda,2005,4700,270000,Petrol
+873,Honda Fit,Honda,2001,6100,150000,Petrol
+874,Honda Fit,Honda,2002,4800,220000,Petrol
+875,Honda Fit,Honda,2003,6500,270000,Petrol
+876,Honda Fit,Honda,2004,5200,160000,Petrol
+877,Honda Fit,Honda,2005,4900,180000,Petrol
+878,Honda Fit,Honda,2001,7300,260000,Petrol
+879,Honda Fit,Honda,2002,6600,140000,Petrol
+880,Honda Fit,Honda,2003,6900,250000,Petrol
+881,Honda Fit,Honda,2004,5800,170000,Petrol
+882,Honda Fit,Honda,2005,5300,130000,Petrol
+883,Honda Fit,Honda,2001,5600,200000,Petrol
+884,Honda Fit,Honda,2002,6200,280000,Petrol
+885,Honda Fit,Honda,2003,7500,210000,Petrol
+886,Honda Fit,Honda,2004,4600,250000,Petrol
+887,Honda Fit,Honda,2005,6100,190000,Petrol
+888,Honda Fit,Honda,2001,4700,230000,Petrol
+889,Honda Fit,Honda,2002,5700,260000,Petrol
+890,Honda Fit,Honda,2003,6800,150000,Petrol
+891,Honda Fit,Honda,2004,4900,170000,Petrol
+892,Honda Fit,Honda,2005,6400,200000,Petrol
+893,Honda Fit,Honda,2001,7500,180000,Petrol
+894,Honda Fit,Honda,2002,5300,250000,Petrol
+895,Honda Fit,Honda,2003,5600,220000,Petrol
+896,Honda Fit,Honda,2004,6000,240000,Petrol
+897,Honda Fit,Honda,2005,6700,210000,Petrol
+898,Honda Fit,Honda,2001,6800,270000,Petrol
+899,Honda Fit,Honda,2002,4800,140000,Petrol
