@@ -119,16 +119,16 @@
                             </select>
                             </div>
 
-                            <div class="col-md-10 form-group" style="text-align: center">
+                            <div class="col-md-10 form-group " style="text-align: center">
                                 <label><b>Введите количество километров, пройденных автомобилем:</b> </label><br>
-                                <input type="range" class="form-control btn-warning" id="kilo_driven" name="kilo_driven"
+                                <input type="range" class="form-control " id="kilo_driven" name="kilo_driven"
                                        min="1" max="350000" value="1"
                                        oninput="document.getElementById('kilo_output').value = this.value">
                                 <output id="kilo_output">1</output>
                                 км
                             </div>
                             <div class="col-md-10 form-group" style="text-align: center">
-                                <button class="btn btn-warning form-control" onclick="send_data()">Predict
+                                <button class="btn btn-primary form-control" onclick="send_data()">Predict
                                 </button>
                             </div>
                         </form>

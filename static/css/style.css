@@ -15,5 +15,13 @@
     border: 2px solid black;
 }
 
+.range-slider {
+    background: yellow; /* Change background color of range input */
+}
+
+.output {
+    color: yellow; /* Change color of output text */
+}
+
 
 

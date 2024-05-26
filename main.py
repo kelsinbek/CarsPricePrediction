@@ -38,13 +38,13 @@ def predict():
     color = request.form.get('color')
     volume = request.form.get('volume')
 
-    # Predict current price
+
     current_features = pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type', 'color', 'volume'],
                                     data=np.array([car_model, company, year, driven, fuel_type, color, volume]).reshape(
                                         1, 7))
     current_price = model.predict(current_features)[0]
 
-    # Calculate future price
+    # Плюсуем км
     future_kms_driven = int(driven) + 25000
     future_features = pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type', 'color', 'volume'],
                                    data=np.array(
