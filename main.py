@@ -8,7 +8,7 @@ app = Flask(__name__)
 cors = CORS(app)
 model = pickle.load(open('RandomForestRegressionModel.pkl', 'rb'))
 
-car = pd.read_csv('dataset/cleaned_data_cars.csv')
+car = pd.read_csv('dataset/car_csv.csv')
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -18,7 +18,7 @@ def index():
     year = sorted(car['year'].unique(), reverse=True)
     fuel_type = car['fuel_type'].unique()
 
-    companies.insert(0, 'Select Company')
+    companies.insert(0, 'Выбор бренда')
     return render_template('index.html', companies=companies, car_models=car_models, years=year, fuel_types=fuel_type)
 
 
@@ -31,6 +31,7 @@ def predict():
     year = request.form.get('year')
     fuel_type = request.form.get('fuel_type')
     driven = request.form.get('kilo_driven')
+
 
     prediction = model.predict(pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type'],
                                             data=np.array([car_model, company, year, driven, fuel_type]).reshape(1, 5)))
