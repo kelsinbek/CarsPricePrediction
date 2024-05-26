@@ -90,6 +90,8 @@
                                     {% endfor %}
                                 </select>
                             </div>
+
+
                             <div class="col-md-10 form-group" style="text-align: center">
                                 <label><b>Выберите тип топлива:</b> </label><br>
                                 <select class="selectpicker form-control" id="fuel_type" name="fuel_type" required="1">
@@ -98,16 +100,35 @@
                                     {% endfor %}
                                 </select>
                             </div>
+
+                            <div class="col-md-10 form-group" style="text-align: center">
+                                <label><b>Выберите цвет:</b></label><br>
+                                <select class="selectpicker form-control" id="color" name="color" required="1">
+                                {% for clr in colors %}
+                                <option value="{{ clr }}">{{ clr }}</option>
+                                {% endfor %}
+                                </select>
+                            </div>
+
+                            <div class="col-md-10 form-group" style="text-align: center">
+                                <label><b>Выберите объем двигателя:</b></label><br>
+                            <select class="selectpicker form-control" id="volume" name="volume" required="1">
+                            {% for vol in volumes %}
+                            <option value="{{ vol }}">{{ vol }}</option>
+                            {% endfor %}
+                            </select>
+                            </div>
+
                             <div class="col-md-10 form-group" style="text-align: center">
                                 <label><b>Введите количество километров, пройденных автомобилем:</b> </label><br>
-                                <input type="range" class="form-control" id="kilo_driven" name="kilo_driven"
+                                <input type="range" class="form-control btn-warning" id="kilo_driven" name="kilo_driven"
                                        min="1" max="350000" value="1"
                                        oninput="document.getElementById('kilo_output').value = this.value">
                                 <output id="kilo_output">1</output>
                                 км
                             </div>
                             <div class="col-md-10 form-group" style="text-align: center">
-                                <button class="btn btn-primary form-control" onclick="send_data()">Прогнозировать цену
+                                <button class="btn btn-warning form-control" onclick="send_data()">Predict
                                 </button>
                             </div>
                         </form>
@@ -125,25 +146,35 @@
 </div>
 
 <script>
-    function load_car_models(company_id, car_model_id) {
-        var company = document.getElementById(company_id);
-        var car_model = document.getElementById(car_model_id);
-        console.log(company.value);
-        car_model.value = "";
-        car_model.innerHTML = "";
-        {% for company in companies %}
-            if (company.value == "{{ company }}") {
-                {% for model in car_models %}
-                    {% if company in model %}
-                        var newOption = document.createElement("option");
-                        newOption.value = "{{ model }}";
-                        newOption.innerHTML = "{{ model }}";
-                        car_model.options.add(newOption);
-                    {% endif %}
-                {% endfor %}
+        // Массив моделей автомобилей для каждой компании
+        var carModelsByCompany = {
+            {% for company in companies %}
+                "{{ company }}": [
+                    {% for model in car_models %}
+                        {% if company in model %}
+                            "{{ model }}",
+                        {% endif %}
+                    {% endfor %}
+                ],
+            {% endfor %}
+        };
+
+        // Функция для загрузки моделей автомобилей
+        function load_car_models(company_id, car_model_id) {
+            var company = document.getElementById(company_id).value;
+            var car_model = document.getElementById(car_model_id);
+            car_model.innerHTML = ""; // Очистка существующих опций
+
+            if (company in carModelsByCompany) {
+                var models = carModelsByCompany[company];
+                for (var i = 0; i < models.length; i++) {
+                    var newOption = document.createElement("option");
+                    newOption.value = models[i];
+                    newOption.innerHTML = models[i];
+                    car_model.appendChild(newOption);
+                }
             }
-        {% endfor %}
-    }
+        }
 
     function form_handler(event) {
         event.preventDefault(); // Don't submit the form normally
@@ -159,14 +190,14 @@
         xhr.open('POST', '/predict', true);
         document.getElementById('prediction').innerHTML = "Wait! Predicting Price.....";
         xhr.onreadystatechange = function () {
-            if (xhr.readyState == XMLHttpRequest.DONE) {
-                document.getElementById('prediction').innerHTML = "Prediction:" + xhr.responseText + " $";
-            }
-        };
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            document.getElementById('prediction').innerHTML = xhr.responseText;
+        }
+    };
 
-        xhr.onload = function () {};
+    xhr.onload = function () {};
 
-        xhr.send(fd);
+    xhr.send(fd);
     }
 </script>
 

@@ -8,7 +8,7 @@ app = Flask(__name__)
 cors = CORS(app)
 model = pickle.load(open('RandomForestRegressionModel.pkl', 'rb'))
 
-car = pd.read_csv('dataset/car_csv.csv')
+car = pd.read_csv('dataset/_cleaned_data_cars.csv')
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -17,9 +17,13 @@ def index():
     car_models = sorted(car['name'].unique())
     year = sorted(car['year'].unique(), reverse=True)
     fuel_type = car['fuel_type'].unique()
+    colors = car['color'].unique()
+    volumes = sorted(car['volume'].unique())
 
     companies.insert(0, 'Выбор бренда')
-    return render_template('index.html', companies=companies, car_models=car_models, years=year, fuel_types=fuel_type)
+    return render_template('index.html', companies=companies,
+                           car_models=car_models, years=year, fuel_types=fuel_type,
+                           colors=colors, volumes=volumes)
 
 
 @app.route('/predict', methods=['POST'])
@@ -31,13 +35,30 @@ def predict():
     year = request.form.get('year')
     fuel_type = request.form.get('fuel_type')
     driven = request.form.get('kilo_driven')
+    color = request.form.get('color')
+    volume = request.form.get('volume')
 
+    # Predict current price
+    current_features = pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type', 'color', 'volume'],
+                                    data=np.array([car_model, company, year, driven, fuel_type, color, volume]).reshape(
+                                        1, 7))
+    current_price = model.predict(current_features)[0]
 
-    prediction = model.predict(pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type'],
-                                            data=np.array([car_model, company, year, driven, fuel_type]).reshape(1, 5)))
-    print(prediction)
+    # Calculate future price
+    future_kms_driven = int(driven) + 25000
+    future_features = pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type', 'color', 'volume'],
+                                   data=np.array(
+                                       [car_model, company, year, future_kms_driven, fuel_type, color, volume]).reshape(
+                                       1, 7))
+    future_price_without_inflation = model.predict(future_features)[0]
+    inflation_rate = 0.05
+    future_price = future_price_without_inflation * (1 + inflation_rate)
 
-    return str(np.round(prediction[0], 2))
+    response = (f"Приблизительная текущая цена автомобиля: {current_price:.2f} $. "
+                f"Прогнозируемая цена через год: {future_price:.2f} $.")
+
+    return response
+
 
 
 if __name__ == '__main__':
