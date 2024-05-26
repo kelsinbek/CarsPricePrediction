@@ -1,23 +1,36 @@
 import pandas as pd
-import numpy as np
-from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-df=pd.read_csv('dataset/car_sales_with_dates.csv')
-# Преобразование столбца sale_date в формат datetime
-df['sale_date'] = pd.to_datetime(df['sale_date'])
+# Загрузка данных из CSV файла
+df = pd.read_csv('car_data_with_sales.csv.csv')
 
-# Группировка данных по месяцам и вычисление средней цены
-df['month'] = df['sale_date'].dt.to_period('M')
-monthly_prices = df.groupby('month')['price'].mean()
+# Преобразование столбца sale_date в формат даты
+df['sale_date'] = pd.to_datetime(df['sale_date'], errors='coerce')
+
+# Удаление строк с некорректными значениями в столбце sale_date
+df = df.dropna(subset=['sale_date'])
+
+# Фильтрация данных за последние 4 года
+start_date = pd.Timestamp('2020-01-01')
+end_date = pd.Timestamp('2024-12-31')
+filtered_df = df[(df['sale_date'] >= start_date) & (df['sale_date'] <= end_date)]
+
+# Создание столбца "год продажи" для группировки
+filtered_df['sale_year'] = filtered_df['sale_date'].dt.year
+
+# Вычисление среднего значения цены за каждый год
+avg_price_per_year = filtered_df.groupby('sale_year')['price'].mean().reset_index()
 
 # Построение графика
 plt.figure(figsize=(10, 6))
-plt.plot(monthly_prices.index.astype(str), monthly_prices.values, marker='o')
-plt.title('Средняя цена на Honda Fit за последние 2 года')
-plt.xlabel('Месяц')
+sns.lineplot(data=avg_price_per_year, x='sale_year', y='price', marker='o')
+
+# Настройка графика
+plt.title('Средняя цена автомобилей за последние 4 года ')
+plt.xlabel('Год продажи')
 plt.ylabel('Средняя цена ($)')
-plt.xticks(rotation=45)
 plt.grid(True)
-plt.tight_layout()
+
+# Показать график
 plt.show()
