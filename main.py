@@ -38,7 +38,6 @@ def predict():
     color = request.form.get('color')
     volume = request.form.get('volume')
 
-
     current_features = pd.DataFrame(columns=['name', 'company', 'year', 'kms_driven', 'fuel_type', 'color', 'volume'],
                                     data=np.array([car_model, company, year, driven, fuel_type, color, volume]).reshape(
                                         1, 7))
@@ -58,7 +57,6 @@ def predict():
                 f"Прогнозируемая цена через год: {future_price:.2f} $.")
 
     return response
-
 
 
 if __name__ == '__main__':
