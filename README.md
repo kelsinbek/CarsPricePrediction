@@ -17,7 +17,7 @@ git clone https://github.com/kelsinbek/CarsPricePrediction.git
 cd CarsPricePrediction
 ```
 
-## 2. Создайте виртуальное окужение
+## 2. Создайте виртуальное окружение
 ```bash
 python -n venv venv
 ```
