@@ -41,32 +41,32 @@ python main.py
 ##Использование
 На главной странице приложения вы можете ввести следующие характеристики автомобиля:
 
-Год выпуска: Год, когда автомобиль был выпущен.
-Пробег: Пробег автомобиля в километрах.
-Тип топлива: Тип топлива (например, бензин, дизель).
-Цвет: Цвет автомобиля.
+-Год выпуска: Год, когда автомобиль был выпущен.
+-Пробег: Пробег автомобиля в километрах.
+-Тип топлива: Тип топлива (например, бензин, дизель).
+-Цвет: Цвет автомобиля.
 После ввода данных нажмите кнопку для получения прогноза цены на следующий год.
 
 ## Структура проекта
-CarsPricePrediction/
-│
-├── dataset/
-│   ├── cars.csv
-│   └── _cleaned_data_cars.csv
-├── documentation/
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── image/
-│       └── car_img.jpg
-├── templates/
-│   └── index.html
-├── analyse_cars.ipynb
-├── LinearRegressionModel.pkl
-├── main.py
-├── RandomForestRegression.pkl
-├── requirements.txt
-└── README.md
+-CarsPricePrediction/
+-│
+-├── dataset/
+-│   ├── cars.csv
+-│   └── _cleaned_data_cars.csv
+-├── documentation/
+-├── static/
+-│   ├── css/
+-│   │   └── style.css
+-│   └── image/
+-│       └── car_img.jpg
+-├── templates/
+-│   └── index.html
+-├── analyse_cars.ipynb
+-├── LinearRegressionModel.pkl
+-├── main.py
+-├── RandomForestRegression.pkl
+-├── requirements.txt
+-└── README.md
            
 
 
