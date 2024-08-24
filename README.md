@@ -21,8 +21,8 @@ cd CarsPricePrediction
 ```bash
 python -n venv venv
 ```
-  Активируйте виртуальное окружение
-  ***** На Windows
+  - Активируйте виртуальное окружение
+  - На Windows
    ```bash
    venv\Scripts\activate
    ```
