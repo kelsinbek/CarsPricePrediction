@@ -17,7 +17,7 @@ git clone https://github.com/kelsinbek/CarsPricePrediction.git
 cd CarsPricePrediction
 ```
 
-## Создайте виртуальное окужение
+## 2. Создайте виртуальное окужение
 ```bash
 python -n venv venv
 ```
@@ -27,18 +27,18 @@ python -n venv venv
    venv\Scripts\activate
    ```
 
-###   Установите зависимости
+### 3. Установите зависимости
 ```bash
 pip install -r requirements.txt
 ```
 
-### Запустите приложение
+### 4. Запустите приложение
 ```bash
 python main.py
 ```
 Откройте браузер и перейдите по адресу http://localhost:8080/, чтобы увидеть веб-приложение.
 
-Использование
+##Использование
 На главной странице приложения вы можете ввести следующие характеристики автомобиля:
 
 Год выпуска: Год, когда автомобиль был выпущен.
@@ -47,25 +47,26 @@ python main.py
 Цвет: Цвет автомобиля.
 После ввода данных нажмите кнопку для получения прогноза цены на следующий год.
 
-Структура проекта
+## Структура проекта
 CarsPricePrediction/
 │
-├── dataset   
-│   └── cars.csv
+├── dataset/
+│   ├── cars.csv
 │   └── _cleaned_data_cars.csv
-├── documentation     
-├── static/              
-│   └── css/
-│          └──style.css
-│   └──image/
-│          └──car_img.jpg
+├── documentation/
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── image/
+│       └── car_img.jpg
 ├── templates/
 │   └── index.html
-├──analyse_cars.ipynb
-├──LinearRegressionModel.pkl
-├──main.py
-├──RandomForestRegression.pkl
-├──requirements.txt
-└── README.md           
+├── analyse_cars.ipynb
+├── LinearRegressionModel.pkl
+├── main.py
+├── RandomForestRegression.pkl
+├── requirements.txt
+└── README.md
+           
 
 
