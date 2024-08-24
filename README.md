@@ -1,58 +1,65 @@
+Here's the translation:
+
 # Cars Price Prediction
 
-Описание: Проект предназначен для прогнозирования цен на поддержанные автомобили в Кыргызстане. Он анализирует различные характеристики автомобилей и предоставляет прогноз стоимости на следующий год с учетом инфляции и изменений на рынке.
+Description: This project is designed to predict the prices of used cars in Kyrgyzstan. It analyzes various car characteristics and provides a price forecast for the next year, taking into account inflation and market changes.
 
-## Особенности
+## Features
 
-- Прогнозирование цены на основе различных характеристик автомобилей, таких как название модели,производителя автомобиля, год выпуска, цена автомобиля, пробег, тип топлива и цвет.
-- Актуализация данных с учетом инфляции и изменений на рынке.
-- Интерфейс для ввода данных автомобиля и получения прогноза цены на следующий год.
+- Price prediction based on various car characteristics such as model name, car manufacturer, year of manufacture, car price, mileage, fuel type, and color.
+- Data updating to account for inflation and market changes.
+- An interface for inputting car data and obtaining a price forecast for the next year.
 
-## Установка
+## Installation
 
-### 1. Клонируйте репозиторий
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/kelsinbek/CarsPricePrediction.git
 cd CarsPricePrediction
 ```
 
-## 2. Создайте виртуальное окружение
+### 2. Create a virtual environment
+
 ```bash
-python -n venv venv
+python -m venv venv
 ```
-  - Активируйте виртуальное окружение
-  - На Windows
+  - Activate the virtual environment
+  - On Windows
    ```bash
    venv\Scripts\activate
    ```
 
-### 3. Установите зависимости
+### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Запустите приложение
+### 4. Run the application
+
 ```bash
 python main.py
 ```
-Откройте браузер и перейдите по адресу http://localhost:8080/, чтобы увидеть веб-приложение.
+Open your browser and go to http://localhost:8080/ to view the web application.
 
-## Использование
-На главной странице приложения вы можете ввести следующие характеристики автомобиля:
+## Usage
+On the main page of the application, you can enter the following car characteristics:
 
-- **Название модели**: Название модели автомобиля.
-- **Производитель**: Производитель автомобиля.
-- **Год выпуска**: Год, когда автомобиль был выпущен.
-- **Цена автомобиля**: Цена автомобиля на момент продажи.
-- **Пробег**: Пробег автомобиля в километрах.
-- **Тип топлива**: Тип топлива (например, бензин, дизель).
-- **Цвет**: Цвет автомобиля.
-  
-После ввода данных нажмите кнопку для получения прогноза цены на следующий год.
+- **Model Name**: The model name of the car.
+- **Manufacturer**: The manufacturer of the car.
+- **Year of Manufacture**: The year the car was made.
+- **Car Price**: The price of the car at the time of sale.
+- **Mileage**: The car's mileage in kilometers.
+- **Fuel Type**: The type of fuel (e.g., gasoline, diesel).
+- **Color**: The color of the car.
+
+After entering the data, click the button to get a price forecast for the next year.
 
 ![Alt text](documentation/screen.png)
-## Структура проекта
+
+## Project Structure
+
 - CarsPricePrediction/
 - │
 - ├── dataset/
@@ -72,6 +79,3 @@ python main.py
 - ├── RandomForestRegression.pkl
 - ├── requirements.txt
 - └── README.md
-           
-
-
