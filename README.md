@@ -1,4 +1,3 @@
-Here's the translation:
 
 # Cars Price Prediction
 
