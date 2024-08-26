@@ -1,4 +1,3 @@
-
 # Cars Price Prediction
 
 Description: This project is designed to predict the prices of used cars in Kyrgyzstan. It analyzes various car characteristics and provides a price forecast for the next year, taking into account inflation and market changes.
@@ -62,16 +61,16 @@ After entering the data, click the button to get a price forecast for the next y
 - CarsPricePrediction/
 - │
 - ├── dataset/
-- │   ├── cars.csv
-- │   └── _cleaned_data_cars.csv
+- │           ├── cars.csv
+- │           └── _cleaned_data_cars.csv
 - ├── documentation/
 - ├── static/
-- │   ├── css/
-- │   │   └── style.css
-- │   └── image/
-- │       └── car_img.jpg
+- │          ├── css/
+- │          └── style.css
+- │          └── image/
+- │                    └── car_img.jpg
 - ├── templates/
-- │   └── index.html
+- │             └── index.html
 - ├── analyse_cars.ipynb
 - ├── LinearRegressionModel.pkl
 - ├── main.py
